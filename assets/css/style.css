@@ -40,6 +40,65 @@ body {
 
 .container-main {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 5%;
 }
+
+.content-main {
+    max-width: 400px;
+    color: #fff;
+}
+
+.content-main .content-main__creator {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-bottom: 0.625rem;
+}
+
+.content-main .content-main__title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content-main .content-main__description {
+    margin-bottom: 2rem;
+    width: 400px;
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.ilustration img {
+    width: 400px;
+}
+
+/** inicio botoes */
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-watch {
+    background-color: #F1A5B1;
+}
+
+.btn-trailer {
+    background-color: transparent;
+    border: 2px solid #F1A5B1;
+    color: #fff;
+}
+
+/** fim botoes */
 
 /** INICIO MAIN */
