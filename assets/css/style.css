@@ -3,5 +3,35 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 100vh;
+    height: 100%;
 }
+
+/** INICIO HEADER */
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 1.5rem 0;
+}
+
+.container-header img {
+    width: 10rem;
+}
+
+.nav-header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.nav-header__list li {
+    background-color: #ffffff23;
+    color: #fff;
+
+    padding: 0.625rem;
+    border-radius: 50%;
+}
+/** INICIO HEADER */
