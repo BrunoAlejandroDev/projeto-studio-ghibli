@@ -35,3 +35,11 @@ body {
     border-radius: 50%;
 }
 /** INICIO HEADER */
+
+/** INICIO MAIN */
+
+.container-main {
+    display: flex;
+}
+
+/** INICIO MAIN */
