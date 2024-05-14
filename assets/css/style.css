@@ -30,11 +30,13 @@ body {
 .nav-header__list li {
     background-color: #ffffff23;
     color: #fff;
-
+    
     padding: 0.625rem;
     border-radius: 50%;
+    cursor: pointer;
 }
-/** INICIO HEADER */
+
+/** FIM HEADER */
 
 /** INICIO MAIN */
 
@@ -84,6 +86,7 @@ body {
 
 button {
     text-transform: uppercase;
+    font-weight: bold;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
     border: none;
@@ -91,11 +94,27 @@ button {
 
 .btn-watch {
     background-color: #F1A5B1;
+    cursor: pointer;
+    transition: ease .3s;
+}
+
+.btn-watch:hover {
+    background-color: #f17d8f;
 }
 
 .btn-trailer {
+    cursor: pointer;
     background-color: transparent;
     border: 2px solid #F1A5B1;
+    color: #fff;
+    transition: ease .3s;
+}
+
+.btn-trailer:hover {
+    border: 2px solid #f17d8f;
+}
+
+.btn-trailer a {
     color: #fff;
 }
 
