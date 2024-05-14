@@ -1,9 +1,9 @@
 body {
+    margin: 0 auto;
+    
     background-image: url('../img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-
-    height: 100%;
 }
 
 /** INICIO HEADER */
@@ -14,11 +14,12 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    margin: 1.5rem 0;
+    margin: 1rem 0;
+    padding: 0 1rem;
 }
 
-.container-header img {
-    width: 10rem;
+.logo-sg {
+    width: 150px;
 }
 
 .nav-header__list {
@@ -45,13 +46,15 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
     gap: 50px;
+    padding: 1rem;
     margin-top: 5%;
 }
 
 .content-main {
-    max-width: 400px;
     color: #fff;
+    width: 400px;
 }
 
 .content-main .content-main__creator {
@@ -71,13 +74,12 @@ body {
 .content-main .content-main__description {
     font-family: "Poppins", sans-serif;
     margin-bottom: 2rem;
-    width: 400px;
     text-align: left;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.ilustration img {
+.ilustration {
     width: 400px;
 }
 
@@ -90,7 +92,8 @@ body {
 button {
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0.75rem 1.5rem;
+    width: 200px;
+    height: 50px;
     border-radius: 5px;
     border: none;
 }
