@@ -18,16 +18,16 @@
         width: 100%;
     }
 
-    .content-main .content-main__creator {
+    .content-main__creator {
         font-size: 0.75rem;
     }
     
-    .content-main .content-main__title {
+    .content-main__title {
         font-size: 2rem;
         margin-bottom: 1rem;
     }
     
-    .content-main .content-main__description {
+    .content-main__description {
         margin-bottom: 1.5rem;
         font-size: 0.875rem;
         line-height: 1.3rem;
@@ -67,18 +67,18 @@
         max-width: 350px;
     }
 
-    .content-main .content-main__creator {
-        font-size: 0.75rem;
+    .content-main__creator {
+        font-size: 0.675rem;
     }
     
-    .content-main .content-main__title {
-        font-size: 1.5rem;
+    .content-main__title {
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     
-    .content-main .content-main__description {
+    .content-main__description {
         margin-bottom: 1.5rem;
-        font-size: 0.75rem;
+        font-size: .875rem;
         line-height: 1.3rem;
     }
 
